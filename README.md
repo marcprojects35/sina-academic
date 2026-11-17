@@ -7,8 +7,8 @@ O SINA é um sistema de monitoramento acadêmico inteligente que permite aos pro
 ## ✨ Funcionalidades
 
 ### 🔐 Sistema de Autenticação
-- **Login padrão**: `professor` / `professor`
-- Credenciais podem ser alteradas posteriormente
+- Login com credenciais configuráveis
+- Credenciais definidas em `src/contexts/AuthContext.jsx`
 - Sistema de sessão persistente
 
 ### 📊 Dashboard Principal
@@ -111,7 +111,7 @@ npm run build
 ## 📱 Como Usar
 
 ### 1. Login
-- Use as credenciais padrão: `professor` / `professor`
+- Use as credenciais configuradas em `src/contexts/AuthContext.jsx`
 - Clique em "Entrar no Sistema"
 
 ### 2. Adicionar Registro
